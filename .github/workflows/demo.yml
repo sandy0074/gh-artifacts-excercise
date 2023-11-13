@@ -19,7 +19,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: my-artifacts
-          path: public
+          path: dist
   build:
     needs: test
     runs-on: ubuntu-latest
